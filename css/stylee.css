@@ -1,0 +1,391 @@
+:root {
+    --main-color: #f65f78;
+}
+html {
+    scroll-padding: 68px;
+}
+.bg-section {
+    background-color: #f1f1f1;
+}
+.gear {
+    position: fixed;
+    left: 0;
+    top: 30%;
+    width: 30px;
+    height: 30px;
+    background-color: var(--main-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 5px 5px 0;
+    -webkit-border-radius: 0 5px 5px 0;
+    -moz-border-radius: 0 5px 5px 0;
+    -ms-border-radius: 0 5px 5px 0;
+    -o-border-radius: 0 5px 5px 0;
+    z-index: 33333;
+} 
+/* ^navbar */
+.navbar-nav .nav-link.active {
+    color: var(--main-color);
+    font-weight: bold;
+    
+}
+
+/* ^ header */
+header {
+    background-image: linear-gradient(rgba(0,0,0,0.8) , rgba(0,0,0,0.8)) , url("../image/header-bg.jpg") ;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+header h1::after {
+    content: "";
+    animation: head 5s infinite;
+    -webkit-animation: head 5s infinite;
+}
+@keyframes head {
+    0%{
+        content: " |";
+    }
+    2%{
+        content: " W|";
+    }
+    4%{
+        content: " We|";
+    }
+    6%{
+        content: " Web|";
+    }
+    8%{
+        content: " Web |";
+    }
+    10%{
+        content: " Web D|";
+    }
+    12%{
+        content: " Web De|";
+    }
+    14%{
+        content: " Web De|";
+    }
+    16%{
+        content: " Web Deve|";
+    }
+    18%{
+        content: " Web Devel|";
+    }
+    20%{
+        content: " Web Develo|";
+    }
+    22%{
+        content: " Web Develop|";
+    }
+    24%{
+        content: " Web Develope|";
+    }
+    26%{
+        content: " Web Developer|";
+    }
+    28%{
+        content: " Web Developer|";
+    }
+    30%{
+        content: " Web Develope|";
+    }
+    32%{
+        content: " Web Develop|";
+    }
+    34%{
+        content: " Web Develo|";
+    }
+    36%{
+        content: " Web Devel|";
+    }
+    38%{
+        content: " Web Deve|";
+    }
+    40%{
+        content: " Web Dev|";
+    }
+    42%{
+        content: " Web De|";
+    }
+    44%{
+        content: " Web D|";
+    }
+    46%{
+        content: " Web |";
+    }
+    48%{
+        content: " Web|";
+    }
+    50%{
+        content: " We|";
+    }
+    52%{
+        content: " W|";
+    }
+    54%{
+        content: " D|";
+    }
+    56%{
+        content: " De|";
+    }
+    58%{
+        content: " Des|";
+    }
+    60%{
+        content: " Desi|";
+    }
+    62%{
+        content: " Desig|";
+    }
+    64%{
+        content: " Design|";
+    }
+    66%{
+        content: " Designe|";
+    }
+   
+    68%{
+        content: " Designer|";
+    }
+    70%{
+        content: " Designer |";
+    }
+    72%{
+        content: " Designer U|";
+    }
+    74%{
+        content: " Designer UI|";
+    }
+    76%{
+        content: " Designer UI/|";
+    }
+    78%{
+        content: " Designer UI/U|";
+    }
+    80%{
+        content: " Designer UI/UX|";
+    }
+    82%{
+        content: " Designer UI/U|";
+    }
+    84%{
+        content: " Designer UI/|";
+    }
+    86%{
+        content: " Designer UI|";
+    }
+    88%{
+        content: " Designer U|";
+    }
+    90%{
+        content: " Designer |";
+    }
+    91%{
+        content: " Designer|";
+    }
+    92%{
+        content: " Designe|";
+    }
+    93%{
+        content: " Design|";
+    }
+    94%{
+        content: " Desi|";
+    }
+    95%{
+        content: " Des|";
+    }
+    96%{
+        content: " De|";
+    }
+    98%{
+        content: " D|";
+    }
+    100%{
+        content: " |";
+    }
+   
+   
+   
+}
+
+
+header button:hover {
+    background-color: white !important;
+    color: black !important;
+}
+header .shape {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 20px;
+    height: 50px;
+    border-radius: 4444px;
+    -webkit-border-radius: 4444px;
+    -moz-border-radius: 4444px;
+    -ms-border-radius: 4444px;
+    -o-border-radius: 4444px;
+    border: 2px solid white;
+}
+header .shape .dot {
+    position: inherit;
+    width: 8px;
+    height: 8px;
+    background-color: white;
+    top: 70%;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    animation: up-down 1.3s infinite ;
+    -webkit-animation: up-down 1.3s infinite ;
+}
+@keyframes up-down {
+    0%{
+        top: 30%;
+        opacity: 0.2;
+    }
+    100%{
+        top: 70%;
+        opacity: 1;
+    }
+}
+/* ^section about */
+.about .text h3 span {
+    color: var(--main-color);
+}
+.about .text ul li {
+    width: 40px;
+    height: 40px;
+    border: 2px solid rgba(128, 128, 128, 0.692);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: border-color .3s;
+    -webkit-transition: border-color .3s;
+    -moz-transition: border-color .3s;
+    -ms-transition: border-color .3s;
+    -o-transition: border-color .3s;
+    cursor: pointer;
+}
+.about .text ul li:hover {
+    border-color: var(--main-color);
+}
+.about .text ul li i {
+    transition: color .3s;
+    -webkit-transition: color .3s;
+    -moz-transition: color .3s;
+    -ms-transition: color .3s;
+    -o-transition: color .3s;
+}
+.about .text ul li:hover i {
+    color: var(--main-color);
+}
+/* ^ section client */
+.client .carousel-inner .carousel-item i {
+    color: var(--main-color);
+    font-size: 50px;
+}
+.client .carousel-indicators button {
+    width: 20px;
+    height: 4px;
+    background-color: var(--main-color);
+    
+
+}
+/* ^ section portfolio */
+.portfolio {
+    background-color: rgba(128, 128, 128, 0.329);
+}
+.portfolio .container .navs-and-tabs ul.nav {
+    width: fit-content;
+    margin-inline: auto;
+}
+.portfolio .container .navs-and-tabs ul.nav button {
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+    color: black;
+}
+.portfolio .container .navs-and-tabs ul.nav button.active {
+    background-color: var(--main-color);
+    color: white;
+}
+.portfolio .container .row .inner {
+    position: relative;
+    overflow: hidden;
+}
+.portfolio .container .row .inner img {
+    transition: transform .7s;
+    transition: filter .7s;
+
+}
+.portfolio .container .row .inner:hover img {
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    filter: blur(1px);
+    -webkit-filter: blur(1px);
+}
+.portfolio .container .row .inner .layer {
+    position: absolute;
+    top: 100%;
+    height: 100%;
+    width: 100%;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+    transition: all .7s;
+    -webkit-transition: all .7s;
+    -moz-transition: all .7s;
+    -ms-transition: all .7s;
+    -o-transition: all .7s;
+    opacity: .2;
+}
+.portfolio .container .row .inner:hover .layer{
+    top: 0;
+    opacity: .7;
+}
+/* ^section blog */
+.blog .text p span {
+    color: var(--main-color);
+}
+/*^ section contact */
+.contact .row .items i {
+    color: var(--main-color);
+}
+.contact textarea {
+    min-height: 100px;
+    min-width: 250px;
+}
+.contact button {
+    width: fit-content;
+    /* margin-inline-start: auto; */
+    background-color: var(--main-color);
+    margin-top: 15px;
+    color: white;
+    padding: 10px;
+}
